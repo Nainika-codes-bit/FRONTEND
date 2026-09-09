@@ -1,0 +1,75 @@
+HTML stands for HyperText Markup Language. It is the standard language used to create and structure the content of a webpage.
+
+HyperText: This refers to the ability to create links that connect web pages to one another, making the web a connected "web" of information.
+
+Markup Language: This means you use "tags" to surround your content, giving that content meaning and structure. You are "marking up" a plain text document.
+
+---------------------------------------------------------------------------------------
+
+Heading tags
+
+Haeding tags are used to define titles and subtitles on your page. They are crucial for creating a logical hierarchy and outline for your content.
+
+<h1> - Typically used only once per page for the main titles.
+<h2> - A major section heading.
+<h3> - A sub section heading under an <h2>.
+<h4> - A sub section heading under an <h3>.
+<h5> - A sub section heading under an <h4>.
+<h6> - The least important heading.
+
+Structure your document in a way that is understandable to both humans and machines(like search engines and screen readers). It is not just making text big, it is for giving the text structural imporatance.
+
+---------------------------------------------------------------------------------------
+
+Paragraph tags
+
+Paragraph tag is the most common tag you'll use. It's for grouping sentences and blocks of text together.
+
+Define a distinct paragraph of text. Browsers automatically add a little bit of space before and after a <p> element, sepearting it from other content. You should not use multiple line breaks, you should use multiple <p> tags.
+
+---------------------------------------------------------------------------------------
+
+Horizontal tags
+
+Horizontal tag defines a thematic break in a html page, and is most often displayed as a horizontal rule.
+
+Seperate content(or define a change) in an html page.
+
+---------------------------------------------------------------------------------------
+
+Line Break tags
+
+Break tag tells the browser "stop writing on this line and immediately start on the next one".
+
+Creates a singline line break.
+
+---------------------------------------------------------------------------------------
+
+Anchor tags
+
+Anchor tag is what makes the web "hypertext". It is used to create a hyperlink to another webpage, a file, or a location within the same page.
+
+Make text(or an image) clickable, allowing users to navigate.It requies an attribute caled href(hypertext reference) to specify the destination URL.
+
+The target attribute
+
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link. The target attribute specifies where to open the linked document.
+
+The target attribute can have the following values:
+_self - Default opens the document in the same window/tab as it was clicked.
+_blank - Opens the document in a new window or tab.
+
+---------------------------------------------------------------------------------------
+
+Image tags
+
+Image tag is a self-closing tag used to embed an image onto your page.
+
+Display a visual image file.
+
+The src and alt attribute
+
+src(source) -  The path or URL to the image file. This is mandatory.
+alt(alternative text) - A description of the image. This is vital for accessibility(screen readers for the visually impaired will read this out) and for when the image fails to load.
+
+---------------------------------------------------------------------------------------

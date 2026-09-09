@@ -1,0 +1,57 @@
+Form tag
+
+The form tag is used to display interactive fields for a user to fill in(text boxes, checkboxes, dropdowns), package the user data neatly sent that package to a specific destination on a server and tells the server how the data is being sent.
+
+<input> - This is the most common form tag. It's a self-closing tag that creates an input field. It's behaviour changes based on its type attribute.
+
+<label> - It is specifically designed to be the title for a form field.
+
+<select> - It creates a drop-down list for choosing options, contains <option> elements (choices).
+
+<textarea> - It creates a multi-line text input field for users.
+
+<button> - It is used to create a clickable button that can perform actions.
+
+---------------------------------------------------------------------------------------
+
+Attributes
+
+id and for - The id is used to gives a form element a unique identity, while the for attribute in a <label> links that label to the element by matching its id. When connected, clicking the label automatically focuses or activates the input field. This makes forms easier to use because the label becomes clickable, and it also improves accessibility by clearly associating labels with inputs for screen readers. In short, id names the input, and for ties the label to that name so they work together smoothly.
+
+name - The name is used to give a form element a name so its data can be identified when the form is submitted. This makes the name attribute important for backend processing, because it tells the server which input field the data belongs to. 
+
+value - The value is used to set the data or default content of a form element. For text inputs, it shows the initial text inside the box, and for radio buttons or checkboxes, it defines what will be sent to the server if selected.
+
+placeholder - The placeholder is used to show temporary hint text inside an input field, guiding the user about what to enter. This text disappears once the user types something in the box.
+
+required - It makes a form field mandatory, meaning the user must fill it before submitting the form. If the field is left empty, the browser will show a validation message and prevent submission.
+
+---------------------------------------------------------------------------------------
+
+Types of input
+
+Text – Allows entering plain text.
+
+Age – Used for entering age (commonly with number type).
+
+Date – Lets the user pick a calendar date.
+
+Email – Accepts and validates email addresses.
+
+Password – Hides characters while typing for security.
+
+Number – Accepts numeric values only.
+
+Radio – Selects one option from a group.
+
+Checkbox – Allows selecting one or multiple options.
+
+Color – Opens a color picker to choose a color.
+
+Range – Provides a slider to select a numeric range.
+
+File – Lets the user upload files.
+
+Submit – Sends the form data to the server.
+
+---------------------------------------------------------------------------------------

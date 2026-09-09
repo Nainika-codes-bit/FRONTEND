@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <h1>University Registration form</h1>
+
+        <p>Please fill out the form below to register.</p>
+
+        <hr>
+
+        <h2>Personal Details</h2>
+
+        <label for="name">First Name:</label>
+        <input type="text" name="userName" id="name" placeholder="eg.Arjun">
+
+        <br><br>
+
+        <label for="last name">Last Name:</label>
+        <input type="text" name="userlastname" id="lastname" placeholder="eg.Gupta">
+
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="userDOB" id="dob">
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <br><br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <br><br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <br><br>
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+
+        <br><br>
+
+        <label>Upload your photo</label>
+        <input type="file" name="file">
+
+        <hr>
+
+        <h2>Contact Information</h2>
+
+        <label for="email">Email id:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="phone no.">Phone No.</label>
+        <input type="tel" id="phone no." name="phone no.">
+
+        <br><br>
+
+        <label for="address">Mailing Address:</label>
+        <br>
+        <textarea name="address" id="address" placeholder="Street , Area , City , Zip-Code"></textarea>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="course">Select Your Course:</label>
+
+        <br><br>
+
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="AIML">AIML</option>
+            <option value="DS">DS</option>
+            <option value="Cyber">Cyber</option>
+        </select>
+
+        <br><br>
+
+        <lable for="activities">Extracircular Activities:</lable>
+
+        <br><br>
+
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="sports" name="useractivity">
+
+        <br><br>
+
+        <lable for="painting">Painting</lable>
+        <input type="checkbox" id="painting" name="useractivity">
+
+        <br><br>
+
+        <lable for="music">Music</lable>
+        <input type="checkbox" id="music" name="useractivity">
+
+        <hr>
+
+        <h2>Create your Account:</h2>
+
+        <label for="password">Create a Password:</label>
+        <input type="text" id="password" value="userpassword">
+
+        <br><br>
+
+        <label for="question">Security Question:</label>
+        <select id="question" name="userquestion">
+            <option value="Your pet name">Your pet name</option>
+            <option value="Your fav country">Your fav country</option>
+        </select>
+
+        <br><br>
+
+        <label  for="answer">Security Answer:</label>
+        <input type="text" id="answer" name="useranswer">
+
+        <br><br>
+
+        <p>
+            <input type="checkbox" name="tick" value="yes">
+            I agree to the terms and condition
+
+        </p>
+
+        <hr>
+
+        <button type="submit">Register</button>
+
+        <button type="reset">Clear form</button>
+
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>

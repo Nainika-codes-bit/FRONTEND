@@ -1,0 +1,33 @@
+Audio tag
+
+The audio tag is used to embed and play sound files directly on a webpage. It supports formats like MP3, OGG, and WAV, and lets visitors listen without needing external apps.
+
+Video tag
+
+The video tag is used to display and play video files directly on a webpage. It allows you to embed formats like MP4, WebM, or Ogg without needing external players.
+
+The control attribute
+
+It is used with the <audio> and <video> tags to show built‑in playback controls like play, pause, volume, and seek bar.
+
+---------------------------------------------------------------------------------------
+
+Iframe tag
+
+The iframe tag is used to embed another webpage inside the current page. It acts like a small window that displays external content, such as a YouTube video, Google Maps, or another site. This makes it possible to show information from different sources without redirecting the user. 
+
+---------------------------------------------------------------------------------------
+
+Header tag
+
+The header tag is used to embed another webpage inside the current page. It acts like a small window that displays external content, such as a YouTube video, Google Maps, or another site. This makes it possible to show information from different sources without redirecting the user. 
+
+Main tag
+
+The main tag is used to define the central content area of a webpage. It holds the primary information that is unique to that page, excluding repeated elements like headers, footers, or sidebars. This tag helps search engines and assistive technologies understand which part of the page contains the most important content. 
+
+Footer tag
+
+The footer tag is used to define the bottom section of a webpage. It usually contains information like copyright notices, contact details, links to policies, or social media icons. It helps in marking the closing part of the page, giving users easy access to important secondary information. 
+
+---------------------------------------------------------------------------------------

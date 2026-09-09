@@ -1,0 +1,47 @@
+List tags
+
+List tag is used to create lists.
+
+<ul> - An unorderd list, creates a bullet list.
+<ol> - An ordered list, creates a numbered list.
+<li> - A list item, each item in either type of list must be wrapped in an <li> tag.
+
+Groups related items together in a list format.
+
+Nesting - The <li> elements are nested as children inside the (<ul> , <ol>) parent.
+
+---------------------------------------------------------------------------------------
+
+Table tags
+
+Table tag is used to create a table structure.
+
+<thead> – Defines the header section of the table, usually containing column titles.
+<tbody> – Defines the main body of the table, where most of the data rows are placed.
+<tfoot> – Defines the footer section of the table, often used for summary or totals.
+
+Organize and display information in a structured grid of rows and columns. 
+
+The border attribute
+
+It is used with the <table> tag to control whether the table has visible lines around it and its cells.
+
+---------------------------------------------------------------------------------------
+
+<tr> - Create a single horizontal row in a table, and inside that row you place cells.
+
+Cells
+
+<th> – Defines a heading cell, usually bold and centered, used at the top of rows or columns.
+
+<td> – Defines a standard data cell where the actual content of the table is placed.
+
+The rowspan and colspan attribute
+
+They are used in table cells.
+
+rowspan - makes a cell span across multiple rows vertically.
+
+colspan - makes a cell span across multiple columns horizontally.
+
+---------------------------------------------------------------------------------------

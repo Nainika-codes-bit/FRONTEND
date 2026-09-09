@@ -1,0 +1,45 @@
+What is Internet ?
+
+The Internet is a global network of interconnected computers and devices that communicate using standardized protocols to share information, resources, and services.
+
+What is IP address ?
+
+An IP address(Internet Protocol) is a unique number assigned to a device when it is connected to internet. Everytime new IP address is assigned to the device whenever the user's device is connected to the internet (IP address is dynamic). ISP(Internet Service Provider) assigns the Ip address.
+
+What is DNS ?
+
+The Domain Name System(DNS) is the Phonebook Of Internet which translates domain name into IP address.
+
+How does the DNS work ?
+
+computer ----> Recursive Server ---> Root Server 
+
+What is a Port Number ?
+
+A port number is like a “door” on your computer that lets internet data go to the right app.
+
+--------------------------------------------------------------------------------------------------
+                    
+How Data is transferred ?
+
+Data is transferred using IP addresses, which guide information across the internet. However, there is a problem: when we request data from a server and then disconnect our internet, we lose our IP address. That IP may be reassigned to someone else. If the server continues sending data to that IP, the new user could receive the data instead of us.
+
+To avoid this, every device has a unique and permanent MAC address. The system first checks the IP address to reach the correct network, and then verifies the MAC address to ensure the data is delivered to the right device. This combination ensures that even if IP addresses change, the data reaches the intended recipient securely.
+
+--------------------------------------------------------------------------------------------------
+
+what is web development ?
+
+Web development is the process of creating, building, and maintaining websites or web applications. It involves both the visible parts users interact with (front-end) and the behind-the-scenes logic, servers, and databases (back-end).
+
+How client server communication works ?
+
+Client requests server for the data (website) , server responds by sending html , css and js.
+
+Full Stack Developer
+
+--> Front-End
+--> Back-End
+--> DataBase
+
+--------------------------------------------------------------------------------------------------
